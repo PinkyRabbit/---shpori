@@ -169,6 +169,16 @@ sudo wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.
 Reload terminal for apply `nvm`.
 > How to set npm permissions guide [here ->](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 
+### misc
+```
+npm install -g eslint
+sudo apt-get install cmake
+sudo add-apt-repository ppa:jonathonf/gcc-7.1
+sudo apt-get update
+sudo apt-get install gcc-7 g++-7
+sudo apt-get install python-dev libxml2-dev libxslt-dev
+```
+
 ### yarn
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
@@ -176,12 +186,14 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt update
 sudo apt install yarn
 ```
+
 ### Vim
 My Vim config [is here](https://github.com/PinkyRabbit/javascript-node-react-vim-config)
 ### Atom
 Download deb from website and install with `gdebi`.
 * `atom-material-ui` + `atom-material-syntax` - that what I use. Add contrastig and shadows to my panels insettings, and maked tabs compact.
 * `file-icons` for better lookup.
+* `linter-eslint` for eslint
 
 ## Bonus
 ### Filezilla
