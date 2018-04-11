@@ -119,7 +119,7 @@ git checkout release/release1
 git pull
 git flow release finish release1
 ```
-Это делает то же самое по сути:
+И завершаем релиз:
 ```
 git flow release finish -m "Your message" "release1"
 git checkout master
@@ -149,7 +149,7 @@ git flow publish hotfix1
 ```
 git flow hotfix finish hotfix1
 ```
-Это делает то же самое:
+И завершаем наш хотфикс:
 ```
 git flow hotfix finish -m "Your message" "hotfix1"
 git status
